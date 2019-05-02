@@ -27,9 +27,16 @@ a {
   width: 100px;
   padding-left: 0px;
   text-align: left;
+  max-width: 300px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 20px;
+  @media (max-width: 650px) {
+  margin: 0 auto;
 }
-
+}
 
 .btn {
   padding: 0 20px;
